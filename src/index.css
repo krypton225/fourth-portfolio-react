@@ -1,3 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* * Import Caveat font family */
+@import url("./assets/fonts/caveat.css");

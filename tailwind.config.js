@@ -12,6 +12,9 @@ module.exports = {
                 "light-beige": "#A9927D",
                 "dark-beige": "#5E503F",
             },
+            fontFamily: {
+                "Caveat": "Caveat, sans-serif"
+            }
         },
     },
     plugins: [],
