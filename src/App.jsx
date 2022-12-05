@@ -2,7 +2,7 @@ import { Navbar } from "./components/index";
 
 function App() {
   return (
-    <div className="container">
+    <div className="relative px-6">
       <Navbar />
     </div>
   );
