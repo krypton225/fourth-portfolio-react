@@ -4,7 +4,7 @@ import { Button } from "./index";
 
 const Landing = () => {
     return (
-        <section className="w-full h-[calc(100vh-10px)] mt-10 lg:mt-12 container flex flex-col justify-center items-center text-center mx-auto overflow-hidden scroll-0">
+        <section className="w-full h-[calc(100vh-10px)] mt-10 lg:mt-12 container flex flex-col justify-center items-center text-center mx-auto overflow-hidden scroll-0" id="home">
             <div className="w-full lg:w-[66%]">
                 <h3 className="text-white text-[2rem] lg:text-3xl">Hey! I'm <span className="text-light-beige">Thomas David</span></h3>
 
