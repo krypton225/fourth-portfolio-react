@@ -1,9 +1,10 @@
-import { Navbar } from "./components/index";
+import { Navbar, Landing } from "./components/index";
 
 function App() {
   return (
-    <div className="w-screen relative">
+    <div className="app h-auto relative overflow-x-hidden">
       <Navbar />
+      <Landing />
     </div>
   );
 }
