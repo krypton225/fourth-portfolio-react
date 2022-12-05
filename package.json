@@ -1,6 +1,8 @@
 {
   "name": "fourth-portfolio-react",
   "version": "0.1.0",
+  "author": "Khaled Mohamed Mahmoud",
+  "packageManager": "yarn@3.2.4",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
