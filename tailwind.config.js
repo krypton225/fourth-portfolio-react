@@ -16,6 +16,9 @@ module.exports = {
                 "Caveat": "Caveat, sans-serif"
             }
         },
+        container: {
+            center: true
+        }
     },
     plugins: [],
 }
