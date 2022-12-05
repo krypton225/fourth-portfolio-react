@@ -11,8 +11,9 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="container relative py-6 text-white flex justify-between items-center capitalize">
-                <h1 className="text-2xl md:text-4xl font-[Caveat]">
+            <nav className={`sticky top-0 left-0 z-[9999] py-6 px-6 lg:px-14 shadow-sm shadow-[#251e16] flex justify-between items-center
+                text-white capitalize transition ${toggleNavbar ? "shadow-none" : ""}`}>
+                <h1 className={`text-2xl md:text-3xl font-[Caveat] ${toggleNavbar ? "invisible opacity-0" : "visible opacity-100"}`}>
                     <Logo />
                 </h1>
 
@@ -28,7 +29,7 @@ const Navbar = () => {
                     }
                 </ul>
 
-                <div className="w-[2rem] h-[1.4rem] p-[2px] absolute right-0 top-[40%] z-[999] rounded flex flex-col justify-between lg:hidden cursor-pointer"
+                <div className="w-[2rem] h-[1.4rem] p-[2px] absolute right-7 lg:right-10 top-[40%] z-[99999999] rounded flex flex-col justify-between lg:hidden cursor-pointer"
                     onClick={handleClickToggleBtn}>
                     <span className={`w-full h-[2px] block transition ${toggleNavbar ? "rotate-45 translate-y-2 bg-rich-black" : "rotate-0 bg-white"}`}></span>
                     <span className={`w-full h-[2px] block transition ${toggleNavbar ? "bg-transparent" : "bg-white"}`}></span>
