@@ -11,7 +11,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className={`sticky top-0 left-0 z-[9999] py-6 px-6 lg:px-14 shadow-sm shadow-[#251e16] flex justify-between items-center
+            <nav className={`w-full fixed top-0 left-0 z-[9999] py-6 px-6 lg:px-14 shadow-sm shadow-[#251e16] flex justify-between items-center
                 text-white capitalize transition ${toggleNavbar ? "shadow-none" : ""}`}>
                 <h1 className={`text-2xl md:text-3xl font-[Caveat] ${toggleNavbar ? "invisible opacity-0" : "visible opacity-100"}`}>
                     <Logo />
