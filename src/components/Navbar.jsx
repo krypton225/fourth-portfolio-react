@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import Logo from "./Logo";
+
 import NavbarItems from "../data/navbarItems";
 
 const Navbar = () => {
@@ -11,11 +13,7 @@ const Navbar = () => {
         <>
             <nav className="container relative py-6 text-white flex justify-between items-center capitalize">
                 <h1 className="text-2xl md:text-4xl font-[Caveat]">
-                    <a href="#" className="py-2 px-1 normal-case font-semibold tracking-wide">
-                        <span className="capitalize text-light-beige">t</span>homas &nbsp;
-                        <span className="capitalize text-light-beige">D</span>
-                        <span>avid</span>
-                    </a>
+                    <Logo />
                 </h1>
 
                 <ul className={`hidden lg:flex justify-between items-center space-x-7 text-lg tracking-wider`}>
