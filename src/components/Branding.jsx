@@ -5,7 +5,7 @@ const Branding = () => (
         {
             AllBrandingImages.map(({ id, imageSrc, imageAlt }) => (
                 <div key={id} className="w-3/4 lg:w-1/2 mx-auto flex justify-center items-center">
-                    <img src={imageSrc} alt={imageAlt} className="p-1 lg:p-4 cursor-pointer" />
+                    <img src={imageSrc} alt={imageAlt} className="p-1 lg:p-4 cursor-pointer" draggable="false" />
                 </div>
             ))
         }
