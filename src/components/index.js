@@ -9,3 +9,5 @@ export { default as Button } from "./Button";
 export { default as SocialMedia } from "./SocialMedia";
 
 export { default as Branding } from "./Branding";
+
+export { default as About } from "./About";
