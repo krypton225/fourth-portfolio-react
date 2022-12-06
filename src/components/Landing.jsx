@@ -1,10 +1,10 @@
-import ImageLanding from "../assets/images/man/man-1.png";
+import { ImageMan1 } from "data/imgs-imports";
 
-import { Button } from "./index";
+import { Button, SocialMedia } from "./index";
 
 const Landing = () => {
     return (
-        <section className="w-full h-[calc(100vh-10px)] mt-10 lg:mt-12 container flex flex-col justify-center items-center text-center mx-auto overflow-hidden scroll-0" id="home">
+        <section className="w-full h-[calc(100vh-10px)] relative mt-10 lg:mt-12 container flex flex-col justify-center items-center text-center mx-auto overflow-hidden scroll-0" id="home">
             <div className="w-full lg:w-[66%]">
                 <h3 className="text-white text-[2rem] lg:text-3xl">Hey! I'm <span className="text-light-beige">Thomas David</span></h3>
 
@@ -21,8 +21,10 @@ const Landing = () => {
             </div>
 
             <div className="w-[22rem] rounded-full">
-                <img src={ImageLanding} alt="Man in landing page!" className="w-full rounded-full" draggable="false" />
+                <img src={ImageMan1} alt="Man in landing page!" className="w-full rounded-full" draggable="false" />
             </div>
+
+            <SocialMedia />
         </section>
     )
 }
