@@ -3,7 +3,7 @@ import { ImageMan2 } from "data/imgs-imports";
 import { Button } from "./index";
 
 const About = () => (
-    <section id="about" className="relative w-screen py-32 bg-[#222]">
+    <section id="about" className="w-screen py-40 relative bg-[#222] flex justify-center items-center">
         <div className="container grid place-content-center grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-0 items-start">
             <div className="w-full h-full px-4 text-center lg:text-start relative flex flex-col justify-center">
                 <h4 className="text-white text-5xl font-[Caveat]">Thomas David</h4>
@@ -19,7 +19,7 @@ const About = () => (
                 </div>
             </div>
 
-            <div className="w-[70%] lg:w-[60%] mx-auto rounded-full flex justify-center items-center">
+            <div className="w-[50%] sm:w-[55%] lg:w-[60%] mx-auto rounded-full flex justify-center items-center">
                 <img src={ImageMan2} alt="Man" className="w-full rounded-full object-cover" draggable="false" />
             </div>
         </div>
