@@ -1,4 +1,4 @@
-import { ImageMan2 } from "data/imgs-imports";
+import { ImageMan2 } from "../data/imgs-imports";
 
 import { Button } from "./index";
 
