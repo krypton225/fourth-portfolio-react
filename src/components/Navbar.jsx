@@ -24,7 +24,7 @@ const Navbar = () => {
                         {
                             NavbarItems.map(({ id, linkText, linkTo }) => (
                                 <li key={id} className="cursor-pointer">
-                                    <Link to={`${linkTo}`} spy={true} smooth={true} offset={-100} duration={800} delay={100}
+                                    <Link to={`${linkTo}`} smooth={true} offset={-100} duration={800} delay={100}
                                         className="py-4 transition hover:text-light-beige">
                                         {linkText}
                                     </Link>
@@ -48,7 +48,7 @@ const Navbar = () => {
                 {
                     NavbarItems.map(({ id, linkText, linkTo }) => (
                         <li key={id} className="block mt-8 text-center cursor-pointer">
-                            <Link to={`${linkTo}`} spy={true} smooth={true} offset={-100} duration={800} delay={100}
+                            <Link to={`${linkTo}`} smooth={true} offset={-100} duration={800} delay={100}
                                 className="py-4 transition hover:text-dark-beige" onClick={() => setToggleNavbar(prev => !prev)}>
                                 {linkText}
                             </Link>
