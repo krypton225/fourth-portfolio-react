@@ -1,3 +1,6 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 import { ImageMan2 } from "../data/imgs-imports";
 
 import { Button } from "./index";
@@ -20,7 +23,7 @@ const About = () => (
             </div>
 
             <div className="w-[50%] sm:w-[55%] lg:w-[60%] mx-auto rounded-full flex justify-center items-center">
-                <img src={ImageMan2} alt="Man" className="w-full rounded-full object-cover" draggable="false" />
+                <LazyLoadImage effect='blur' threshold={70} src={ImageMan2} alt="Man" className="w-full rounded-full object-cover" draggable="false" />
             </div>
         </div>
     </section>
