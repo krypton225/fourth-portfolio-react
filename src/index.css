@@ -22,3 +22,7 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-track-piece {
   display: none;
 }
+
+.swiper-pagination-bullet-active {
+  background-color: #a9927d !important;
+}

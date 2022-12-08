@@ -31,3 +31,11 @@ export { default as ImageSkillsJavaScript } from "../assets/images/skills/js.png
 export { default as ImageSkillsNextJS } from "../assets/images/skills/nextjs.png";
 export { default as ImageSkillsNodeJS } from "../assets/images/skills/nodejs.png";
 export { default as ImageSkillsReactJS } from "../assets/images/skills/reactjs.png";
+
+/* testimonials */
+export { default as ImageTestimonials1 } from "../assets/images/testimonials/man-1.jpg";
+export { default as ImageTestimonials2 } from "../assets/images/testimonials/man-2.jpg";
+export { default as ImageTestimonials3 } from "../assets/images/testimonials/man-3.jpg";
+export { default as ImageTestimonials4 } from "../assets/images/testimonials/man-4.jpg";
+export { default as ImageTestimonials5 } from "../assets/images/testimonials/man-5.jpg";
+export { default as ImageTestimonials6 } from "../assets/images/testimonials/man-6.jpg";

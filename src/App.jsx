@@ -1,4 +1,14 @@
-import { Navbar, Landing, Branding, About, GoToTop, Skills, LastWork, Services } from "./components/index";
+import {
+  Navbar,
+  Landing,
+  Branding,
+  About,
+  GoToTop,
+  Skills,
+  LastWork,
+  Services,
+  Testimonials
+} from "./components/index";
 
 function App() {
   return (
@@ -11,6 +21,7 @@ function App() {
       <Skills />
       <LastWork />
       <Services />
+      <Testimonials />
     </div>
   );
 }
