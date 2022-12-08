@@ -5464,7 +5464,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"escape-html@npm:~1.0.3":
+"escape-html@npm:^1.0.3, escape-html@npm:~1.0.3":
   version: 1.0.3
   resolution: "escape-html@npm:1.0.3"
   checksum: 6213ca9ae00d0ab8bccb6d8d4e0a98e76237b2410302cf7df70aaa6591d509a2a37ce8998008cbecae8fc8ffaadf3fb0229535e6a145f3ce0b211d060decbb24
@@ -6220,6 +6220,7 @@ __metadata:
     "@testing-library/react": ^13.0.0
     "@testing-library/user-event": ^13.2.1
     autoprefixer: ^10.4.13
+    interweave: ^13.0.0
     postcss: ^8.4.19
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -6976,6 +6977,17 @@ __metadata:
     has: ^1.0.3
     side-channel: ^1.0.4
   checksum: 1944f92e981e47aebc98a88ff0db579fd90543d937806104d0b96557b10c1f170c51fb777b97740a8b6ddeec585fca8c39ae99fd08a8e058dfc8ab70937238bf
+  languageName: node
+  linkType: hard
+
+"interweave@npm:^13.0.0":
+  version: 13.0.0
+  resolution: "interweave@npm:13.0.0"
+  dependencies:
+    escape-html: ^1.0.3
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: 751e7da047523d96dfd7f1f411b83d02d747f3af744ae43cd3332360d92c49a66f3da841cce827f9b75e803273930e0485cf08578f97dc2bf47d05510d99131f
   languageName: node
   linkType: hard
 
