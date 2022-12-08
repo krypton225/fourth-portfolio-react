@@ -1,4 +1,4 @@
-import { Navbar, Landing, Branding, About, GoToTop, Skills, LastWork } from "./components/index";
+import { Navbar, Landing, Branding, About, GoToTop, Skills, LastWork, Services } from "./components/index";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <About />
       <Skills />
       <LastWork />
+      <Services />
     </div>
   );
 }

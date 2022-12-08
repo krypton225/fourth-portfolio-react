@@ -17,3 +17,5 @@ export { default as Skills } from "./Skills";
 export { default as GoToTop } from "./GoToTop";
 
 export { default as LastWork } from "./LastWork";
+
+export { default as Services } from "./Services";
