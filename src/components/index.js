@@ -19,3 +19,5 @@ export { default as GoToTop } from "./GoToTop";
 export { default as LastWork } from "./LastWork";
 
 export { default as Services } from "./Services";
+
+export { default as Heading } from "./Heading";

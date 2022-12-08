@@ -1,15 +1,11 @@
-import { Markup } from "interweave";
-
-import { coloringFirstLetters } from "../functions/index";
+import { Heading } from "./index";
 
 import AllServicesInfo from "../data/services-info.js";
 
 const Services = () => (
     <section id="services" className="py-40 px-2 md:px-8 bg-[#1a1a1a]">
         <div className="container text-center">
-            <h4 className="text-white text-4xl lg:text-5xl font-[Caveat]">
-                <Markup content={coloringFirstLetters("what I do for clients")} />
-            </h4>
+            <Heading textSentence={"what I do for clients"} />
 
             <p className="w-[90%] lg:w-[80%] mt-6 mx-auto text-white text-sm lg:text-lg leading-6">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt deserunt laudantium officia fuga ipsam quasi corrupti in numquam dolor libero explicabo, inventore aperiam, commodi et!
