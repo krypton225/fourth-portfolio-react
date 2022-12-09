@@ -1,6 +1,4 @@
-import { Heading } from "./index";
-
-import { Button, Input } from "./index";
+import { Heading, Button, Input, ContactInfo } from "./index";
 
 import AllContactData from "../data/contact-data";
 
@@ -17,15 +15,8 @@ const Contact = () => (
                 <div className="flex flex-col justify-center items-start text-center">
                     {
                         AllContactData.map(({ id, contactIcon, contactAltText, title, firstText, secondText }) => (
-                            <div key={id} className="w-full lg:w-auto mb-12 flex justify-between items-start">
-                                <img src={contactIcon} alt={contactAltText} />
-
-                                <div className="w-full text-start ml-6 flex flex-col justify-between items-start">
-                                    <p className="text-white">{title}</p>
-                                    <p className="my-2 text-[#616161]">{firstText}</p>
-                                    <p className="text-light-beige capitalize">{secondText}</p>
-                                </div>
-                            </div>
+                            <ContactInfo key={id} contactIcon={contactIcon} contactAltText={contactAltText} title={title}
+                                firstText={firstText} secondText={secondText} />
                         ))
                     }
                 </div>

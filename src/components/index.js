@@ -27,3 +27,5 @@ export { default as Testimonials } from "./Testimonials";
 export { default as Input } from "./Input";
 
 export { default as Contact } from "./Contact";
+
+export { default as ContactInfo } from "./ContactInfo";
