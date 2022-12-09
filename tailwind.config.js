@@ -20,5 +20,5 @@ module.exports = {
             center: true
         }
     },
-    plugins: [],
+    plugins: ["tailwindcss ,autoprefixer"],
 }
