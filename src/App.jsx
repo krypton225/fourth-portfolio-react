@@ -8,7 +8,8 @@ import {
   LastWork,
   Services,
   Testimonials,
-  Contact
+  Contact,
+  Footer
 } from "./components/index";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Services />
       <Testimonials />
       <Contact />
+      <Footer />
     </div>
   );
 }
