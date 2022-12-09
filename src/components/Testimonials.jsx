@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 import { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -11,7 +9,7 @@ import { Heading } from './index';
 import AllTestimonialsData from "../data/testimonials-data";
 
 const Testimonials = () => {
-    const [myBreakpointsSwiper, setMyBreakpointsSwiper] = useState({
+    const myBreakpointsSwiper = {
         640: {
             slidesPerView: 1,
         },
@@ -21,7 +19,7 @@ const Testimonials = () => {
         1280: {
             slidesPerView: 3,
         },
-    });
+    }
 
     return (
         <section id="testimonials" className="py-40 px-4 md:px-8">
