@@ -39,3 +39,7 @@ export { default as ImageTestimonials3 } from "../assets/images/testimonials/man
 export { default as ImageTestimonials4 } from "../assets/images/testimonials/man-4.jpg";
 export { default as ImageTestimonials5 } from "../assets/images/testimonials/man-5.jpg";
 export { default as ImageTestimonials6 } from "../assets/images/testimonials/man-6.jpg";
+
+/* contact */
+export { default as ImageContactEmail } from "../assets/images/contact/email.svg";
+export { default as ImageContactLocation } from "../assets/images/contact/location.svg";

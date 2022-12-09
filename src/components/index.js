@@ -23,3 +23,7 @@ export { default as Services } from "./Services";
 export { default as Heading } from "./Heading";
 
 export { default as Testimonials } from "./Testimonials";
+
+export { default as Input } from "./Input";
+
+export { default as Contact } from "./Contact";

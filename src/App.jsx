@@ -7,7 +7,8 @@ import {
   Skills,
   LastWork,
   Services,
-  Testimonials
+  Testimonials,
+  Contact
 } from "./components/index";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <LastWork />
       <Services />
       <Testimonials />
+      <Contact />
     </div>
   );
 }
