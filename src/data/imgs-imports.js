@@ -5,7 +5,6 @@ export { default as ImageBrandingFreelancer } from "../assets/images/branding/fr
 export { default as ImageBrandingUpwork } from "../assets/images/branding/upwork.png";
 
 /* man */
-export { default as ImageMan1 } from "../assets/images/man/man-1.png";
 export { default as ImageMan2 } from "../assets/images/man/man-2.png";
 
 /* projects */

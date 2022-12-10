@@ -1,8 +1,4 @@
-import { Heading } from "./index";
-
-import { ImageMan1 } from "../data/imgs-imports";
-
-import { Button, SocialMedia } from "./index";
+import { Heading, Button, SocialMedia } from "./index";
 
 const Landing = () => {
     return (
@@ -18,10 +14,6 @@ const Landing = () => {
                 </p>
 
                 <Button text={"Hire Me"} margin="mt-4" />
-            </div>
-
-            <div className="w-[22rem] rounded-full">
-                <img src={ImageMan1} alt="Man in landing page!" className="w-full rounded-full" draggable="false" />
             </div>
 
             <SocialMedia />
